@@ -2,7 +2,7 @@ terraform {
     cloud {
         organization = "youngmindDevOps"
         workspaces {
-            name = "CICD-pipeline-wordpress-Terraform"
+            name = "wordpress_app_us_east_2_DEV"
         }
     }
     required_providers {
